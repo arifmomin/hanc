@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hancok</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <!-- ================================modal part start============================== -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Search Item</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Search:</label>
+                            <input type="search" class="form-control" id="recipient-name">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close_button" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="search_button">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------modal part end--------------------------------- -->
+    <!-- =============================menu part start===============================  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary menu_part">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hancok <span>.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav menu_list me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Tornament</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="navbar_right">
+                    <div class="navbar_lng_icon">
+                        <a href="#"><i class="fa-solid fa-globe"></i></a>
+                    </div>
+                    <div class="sign_in">
+                        <a href="#"><i class="fa-solid fa-right-to-bracket"></i><span>Sign In</span></a>
+                    </div>
+                    <div class="search_bar">
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><i
+                                class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- --------------------------------menu part end------------------------------- -->
+    <!-- =============================banner part start===============================  -->
+    <section id="banner_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner_heading">
+                        <h2>LIFE TIME</h2>
+                        <h1>GAMING EXPERIENCE</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae alias voluptas optio.
+                            Veritatis recusandae pariatur qui dignissimos dolore similique ad adipisci eum. Quos
+                            aliquid fugiat magni illum eius?</p>
+                    </div>
+                    <div class="common_button">
+                        <a href="#">View More <span><i class="fa-solid fa-angles-right"></i></span></a>
+                    </div>
+                    <div class="banner_social_icon">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------banner part end------------------------------- -->
+    <!-- =============================about part start===============================  -->
+    <section id="about_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="about_heading">
+                        <h2>ABOUT THE BIGGEST HANCOK
+                            COMMUNITY</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 col-md-12">
+                    <div class="about_img">
+                        <picture> <img src="image/about img.png" class="image-fluid w-100" alt="about img"></picture>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <div class="gaming_platfrom">
+                        <h3>MOST POPULAR GAMING PLATFORM.</h3>
+                        <ul class="poppular_list">
+                            <li> <span><i class="fa-solid fa-check"></i></span>World Bigghest Community & Gaming Server
+                            </li>
+                            <li> <span><i class="fa-solid fa-check"></i></span>Friendly Clan & Mates</li>
+                            <li> <span><i class="fa-solid fa-check"></i></span>We Provide Gaming Accesories</li>
+                            <li> <span><i class="fa-solid fa-check"></i></span>Largest Online Gaming Community & Shop
+                            </li>
+                            <li> <span><i class="fa-solid fa-check"></i></span>Hancok reaches more than 150 million
+                                monthly users</li>
+                            <li> <span><i class="fa-solid fa-check"></i></span>We are leading global media brand for
+                                games</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex illo sed odio
+                            temporibus magni quia eveniet odit placeat repellat quod ipsum modi
+                            necessitatibus, dolorum officia!</p>
+                        <div class="common_button">
+                            <a href="#">View More <span><i class="fa-solid fa-angles-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="counter_col">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter_text">
+                            <h2><span class="counter">112</span>k<span class="dot">.</span></h2>
+                            <p>Community Earning</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter_text">
+                            <h2><span class="counter">12</span>M<span class="dot">.</span></h2>
+                            <p>Total Member</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter_text">
+                            <h2><span class="counter">100</span>k<span class="dot">.</span></h2>
+                            <p>Streams Complete</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter_text">
+                            <h2><span class="counter">844</span>k<span class="dot">.</span></h2>
+                            <p>Total Sponsers</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------about part end------------------------------- -->
+    <!-- =============================popular-part start===============================  -->
+    <section id="popular_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="common_game_heading">
+                        <h2>POPULAR GAMES AROUND THE
+                            WORLD</h2>
+                    </div>
+                    <div class="popular_row">
+                        <div class="popular_img">
+                            <picture><img src="image/popular item (1).png" class="image-fluid w-100" alt="popular-item">
+                            </picture>
+                        </div>
+                        <div class="popular_img">
+                            <picture><img src="image/popular item.png" class="image-fluid w-100" alt="popular-item">
+                            </picture>
+                        </div>
+                        <div class="popular_img">
+                            <picture><img src="image/popular item.png" class="image-fluid w-100" alt="popular-item">
+                            </picture>
+                        </div>
+                        <div class="popular_img">
+                            <picture><img src="image/popular item (1).png" class="image-fluid w-100" alt="popular-item">
+                            </picture>
+                        </div>
+                        <div class="popular_img">
+                            <picture><img src="image/popular item.png" class="image-fluid w-100" alt="popular-item">
+                            </picture>
+                        </div>
+                        <div class="popular_img">
+                            <picture><img src="image/popular item (1).png" class="image-fluid w-100" alt="popular-item">
+                            </picture>
+                        </div>
+                        <div class="popular_img">
+                            <picture><img src="image/popular item.png" class="image-fluid w-100" alt="popular-item">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------popular-part end------------------------------- -->
+    <!-- =============================live_video part start===============================  -->
+    <section id="live_video">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="video_common_heading">
+                        <h2>LIVE STREAMIN VIDEO BY
+                            HANCOK</h2>
+                    </div>
+                    <div class="video_row">
+                        <div class="video_col first">
+                            <div class="video_icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <div class="video_text">
+                                <h3>HORIZON ZERO | DAWN</h3>
+                                <div class="video_text_col">
+                                    <h4>Guerrilla Games</h4>
+                                    <p>Live</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video_col secound">
+                            <div class="video_icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <div class="video_text">
+                                <h3>LEAGUE OF | LEGENDS</h3>
+                                <div class="video_text_col">
+                                    <h4>Riot Games</h4>
+                                    <p>Live</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video_col third">
+                            <div class="video_icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <div class="video_text">
+                                <h3>PALADINS</h3>
+                                <div class="video_text_col">
+                                    <h4>Hi Rez Studios</h4>
+                                    <p>Live</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video_col fourth">
+                            <div class="video_icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <div class="video_text">
+                                <h3>PALADINS</h3>
+                                <div class="video_text_col">
+                                    <h4>Hi Rez Studios</h4>
+                                    <p>Live</p>
+                                </div>
+                            </div>
+                            Check
+                        </div>
+                        <div class="video_col five">
+                            <div class="video_icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <div class="video_text">
+                                <h3>PALADINS</h3>
+                                <div class="video_text_col">
+                                    <h4>Hi Rez Studios</h4>
+                                    <p>Live</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------live_video part end------------------------------- -->
+    <!-- =============================match part start===============================  -->
+    <section id="match">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="match_heading">
+                        <h2>PREVIOUS MATCHES</h2>
+                    </div>
+                    <div class="match_row">
+                        <div class="match_left">
+                            <div class="match_img">
+                                <picture> <img src="image/match left img 1.png" class="image-fluid w-100"
+                                        alt="match item"></picture>
+                            </div>
+                            <div class="team_name">
+                                <h3>TEAM DELTA</h3>
+                            </div>
+                        </div>
+                        <div class="match_time">
+                            <h4>9:12</h4>
+                        </div>
+                        <div class="match_right">
+                            <div class="team_name">
+                                <h3>TEAM ALPHA</h3>
+                            </div>
+                            <div class="match_img">
+                                <picture> <img src="image/match right img 1.png" class="image-fluid w-100"
+                                        alt="match item"></picture>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="match_row">
+                        <div class="match_left">
+                            <div class="match_img">
+                                <picture> <img src="image/match left img 2.png" class="image-fluid w-100"
+                                        alt="match item"></picture>
+                            </div>
+                            <div class="team_name">
+                                <h3>TEAM DEVILS</h3>
+                            </div>
+                        </div>
+                        <div class="match_time">
+                            <h4>17:8</h4>
+                        </div>
+                        <div class="match_right">
+                            <div class="team_name">
+                                <h3>TEAM NINJA</h3>
+                            </div>
+                            <div class="match_img">
+                                <picture> <img src="image/match right img 2.png" class="image-fluid w-100"
+                                        alt="match item"></picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------match part end------------------------------- -->
+    <!-- =============================top_game part start===============================  -->
+    <section id="top_game">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="common_game_heading">
+                        <h2>TOP GAMES ON BLACK FRIDAY
+                            SALE</h2>
+                    </div>
+                    <div class="game_row">
+                        <div class="game_col">
+                            <div class="game_img">
+                                <picture><img src="image/game part 1.png" class="image-fluid w-100" alt="game img">
+                                </picture>
+                            </div>
+                            <div class="game_col_text">
+                                <h3>Horizon Zero Dawn™ Complet...</h3>
+                                <p>Guerrilla Games</p>
+                                <div class="game_price">
+                                    <h4>-40%</h4>
+                                    <h5>$19.99</h5>
+                                    <h6>$7.99</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game_col">
+                            <div class="game_img">
+                                <picture><img src="image/game part 2.png" class="image-fluid w-100" alt="game img">
+                                </picture>
+                            </div>
+                            <div class="game_col_text">
+                                <h3>Disciples: Liberation</h3>
+                                <p>Frima Studio</p>
+                                <div class="game_price">
+                                    <h4>-40%</h4>
+                                    <h5>$19.99</h5>
+                                    <h6>$7.99</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game_col">
+                            <div class="game_img">
+                                <picture><img src="image/game part 3.png" class="image-fluid w-100" alt="game img">
+                                </picture>
+                            </div>
+                            <div class="game_col_text">
+                                <h3>Horizon Zero Dawn™ Complet...</h3>
+                                <p>Guerrilla Games</p>
+                                <div class="game_price">
+                                    <h4>-40%</h4>
+                                    <h5>$19.99</h5>
+                                    <h6>$7.99</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game_col">
+                            <div class="game_img">
+                                <picture><img src="image/game part 4.png" class="image-fluid w-100" alt="game img">
+                                </picture>
+                            </div>
+                            <div class="game_col_text">
+                                <h3>Industries of Titan</h3>
+                                <p>Brace Yourself Games</p>
+                                <div class="game_price">
+                                    <h4>-40%</h4>
+                                    <h5>$19.99</h5>
+                                    <h6>$7.99</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game_col">
+                            <div class="game_img">
+                                <picture><img src="image/game part 2.png" class="image-fluid w-100" alt="game img">
+                                </picture>
+                            </div>
+                            <div class="game_col_text">
+                                <h3>Horizon Zero Dawn™ Complet...</h3>
+                                <p>Guerrilla Games</p>
+                                <div class="game_price">
+                                    <h4>-40%</h4>
+                                    <h5>$19.99</h5>
+                                    <h6>$7.99</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------------top_game part end------------------------------------ -->
+    <!-- ===================================catalog part start====================================  -->
+    <section id="catalog">
+        <div class="container">
+            <div class="catalog_heading">
+                <h2>Hancok Games Catalog</h2>
+            </div>
+            <div class="catalog_bg">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="catalog_text">
+                            <h3>Choose Your Favourite Game</h3>
+                            <h4>Explore hancok catalog for your next
+                                favorite game!</h4>
+                            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus culpa ratione enim
+                                maiores
+                                nisi cupiditate non nesciunt officia labore aut? Et, vero!</h5>
+                        </div>
+                        <div class="catalog_button">
+                            <a href="#">Browse All</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <section id="slider">
+                            <input type="radio" name="slider" id="s1" data-slide="1" checked>
+                            <input type="radio" name="slider" id="s2" data-slide="2">
+                            <input type="radio" name="slider" id="s3" data-slide="3">
+                            <input type="radio" name="slider" id="s4" data-slide="4">
+                            <input type="radio" name="slider" id="s5" data-slide="5">
+                            <label for="s1" id="slide1">
+                                <div class="zoom-container" data-slide="1">
+                                    <img src="image/catalog item.png" class="image-fluid w-100" alt="catalog-slider1">
+                                </div>
+                            </label>
+                            <label for="s2" id="slide2">
+                                <div class="zoom-container" data-slide="2">
+                                    <img src="image/catalog item 2.png" class="image-fluid w-100"
+                                        alt="catalog-slider-2">
+                                </div>
+                            </label>
+                            <label for="s3" id="slide3">
+                                <div class="zoom-container" data-slide="3">
+                                    <img src="image/catalog item 3.png" class="image-fluid w-100"
+                                        alt="catalog-slider-3">
+                                </div>
+                            </label>
+                            <label for="s4" id="slide4">
+                                <div class="zoom-container" data-slide="4">
+                                    <img src="image/catalog item 4.png" class="image-fluid w-100"
+                                        alt="catalog-slider-4">
+                                </div>
+                            </label>
+                            <label for="s5" id="slide5">
+                                <div class="zoom-container" data-slide="5">
+                                    <img src="image/catalog item 5.png" class="image-fluid w-100"
+                                        alt="catalog-slider-5">
+                                </div>
+                            </label>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------catalog part end------------------------------- -->
+    <!-- =============================accesories part start===============================  -->
+    <section id="accesories">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="video_common_heading">
+                        <h2> WE PROVIDE ALL GAMING ACCESORIES</h2>
+                    </div>
+                    <div class="accesories_row">
+                        <div class="accesories_col">
+                            <div class="accesories_price">
+                                <h3>$95</h3>
+                            </div>
+                            <div class="accesories_img">
+                                <picture><img src="image/accesories item.png" class="image-fluid w-100"
+                                        alt="accesories-img"></picture>
+                            </div>
+                            <div class="accesories_item_name">
+                                <h4>Gaming Controller</h4>
+                                <p>Add To Cart</p>
+                            </div>
+                        </div>
+                        <div class="accesories_col">
+                            <div class="accesories_price">
+                                <h3>$95</h3>
+                            </div>
+                            <div class="accesories_img">
+                                <picture><img src="image/accesories_item 2.png" class="image-fluid w-100"
+                                        alt="accesories-img"></picture>
+                            </div>
+                            <div class="accesories_item_name">
+                                <h4>Gaming Controller</h4>
+                                <p>Add To Cart</p>
+                            </div>
+                        </div>
+                        <div class="accesories_col">
+                            <div class="accesories_price">
+                                <h3>$95</h3>
+                            </div>
+                            <div class="accesories_img">
+                                <picture><img src="image/accesories_item 3.png" class="image-fluid w-100"
+                                        alt="accesories-img"></picture>
+                            </div>
+                            <div class="accesories_item_name">
+                                <h4>Gaming Controller</h4>
+                                <p>Add To Cart</p>
+                            </div>
+                        </div>
+                        <div class="accesories_col">
+                            <div class="accesories_price">
+                                <h3>$95</h3>
+                            </div>
+                            <div class="accesories_img">
+                                <picture><img src="image/accesories item.png" class="image-fluid w-100"
+                                        alt="accesories-img"></picture>
+                            </div>
+                            <div class="accesories_item_name">
+                                <h4>Gaming Controller</h4>
+                                <p>Add To Cart</p>
+                            </div>
+                        </div>
+                        <div class="accesories_col">
+                            <div class="accesories_price">
+                                <h3>$95</h3>
+                            </div>
+                            <div class="accesories_img">
+                                <picture><img src="image/accesories_item 2.png" class="image-fluid w-100"
+                                        alt="accesories-img"></picture>
+                            </div>
+                            <div class="accesories_item_name">
+                                <h4>Gaming Controller</h4>
+                                <p>Add To Cart</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------accesories part end------------------------------- -->
+    <!-- =============================professional-team part start===============================  -->
+    <section id="professional_team">
+        <div class="container">
+            <div class="common_game_heading">
+                <h2>TOP GAMES ON BLACK FRIDAY
+                    SALE</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="professional_card">
+                        <div class="professional_text_bg">
+                            <h2>Paladins</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Ut elit tellus, luctus nec ullamcorper
+                            </p>
+                            <div class="professional_card_col">
+                                <div class="professional_button">
+                                    <a href="#"><span class="btn">Know more</span> <span class="hover_btn">Know
+                                            more</span></a>
+                                </div>
+                                <div class="professional_icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="professional_card secound">
+                        <div class="professional_text_bg">
+                            <h2>CS:GO</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Ut elit tellus, luctus nec ullamcorper
+                            </p>
+                            <div class="professional_card_col">
+                                <div class="professional_button">
+                                    <a href="#"><span class="btn">Know more</span> <span class="hover_btn">Know
+                                            more</span></a>
+                                </div>
+                                <div class="professional_icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="professional_card third">
+                        <div class="professional_text_bg">
+                            <h2>DOTA 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Ut elit tellus, luctus nec ullamcorper
+                            </p>
+                            <div class="professional_card_col">
+                                <div class="professional_button">
+                                    <a href="#"><span class="btn">Know more</span> <span class="hover_btn">Know
+                                            more</span></a>
+                                </div>
+                                <div class="professional_icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="professional_card fourth">
+                        <div class="professional_text_bg">
+                            <h2>VALORANT</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Ut elit tellus, luctus nec ullamcorper
+                            </p>
+                            <div class="professional_card_col">
+                                <div class="professional_button">
+                                    <a href="#"><span class="btn">Know more</span> <span class="hover_btn">Know
+                                            more</span></a>
+                                </div>
+                                <div class="professional_icon">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------professional-team part end------------------------------- -->
+    <!-- =============================question part start===============================  -->
+    <section id="question_part">
+        <div class="container">
+            <div class="video_common_heading">
+                <h2> WE PROVIDE ALL GAMING ACCESORIES</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="question_row">
+                        <div class="question_col">
+                            <div class="question_number">
+                                <h3>1</h3>
+                            </div>
+                            <div class="question_text">
+                                <h4>HOW TO DOWNLOAD THE GAME ?</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iste,
+                                    sed error at adipisci repellat rem maiores provident voluptatem ipsum
+                                    autem fugiat.</p>
+                            </div>
+                        </div>
+                        <div class="question_col">
+                            <div class="question_number">
+                                <h3>1</h3>
+                            </div>
+                            <div class="question_text">
+                                <h4>HOW TO DOWNLOAD THE GAME ?</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iste,
+                                    sed error at adipisci repellat rem maiores provident voluptatem ipsum
+                                    autem fugiat.</p>
+                            </div>
+                        </div>
+                        <div class="question_col">
+                            <div class="question_number">
+                                <h3>1</h3>
+                            </div>
+                            <div class="question_text">
+                                <h4>HOW TO DOWNLOAD THE GAME ?</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iste,
+                                    sed error at adipisci repellat rem maiores provident voluptatem ipsum
+                                    autem fugiat.</p>
+                            </div>
+                        </div>
+                        <div class="question_col">
+                            <div class="question_number">
+                                <h3>1</h3>
+                            </div>
+                            <div class="question_text">
+                                <h4>HOW TO DOWNLOAD THE GAME ?</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iste,
+                                    sed error at adipisci repellat rem maiores provident voluptatem ipsum
+                                    autem fugiat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe_row">
+                <div class="subcribe_col">
+                    <div class="subcribe_text">
+                        <h2>subscribe us to get latest news in your inbox
+                            from hancok community</h2>
+                    </div>
+                    <div class="subcribe_input">
+                        <input type="text" name="Email" placeholder="your Email">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------question part end------------------------------- -->
+    <!-- =============================footer part start===============================  -->
+    <section id="footer_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="footer_left_item">
+                        <div class="footer_left_part">
+                            <div class="footer_logo">
+                                <h2>Hancok <span>.</span></h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero
+                                    officiis rem consectetur sunt cupiditate eius obcaecati, culpa,
+                                    aspernatur aperiam id.</p>
+                            </div>
+                            <div class="footer_icon">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer_left_link">
+                            <h2>LINKS</h2>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Tournament</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="footer_right_item">
+                        <div class="footer_left_link footer_right_team">
+                            <h2>TEAMS</h2>
+                            <ul>
+                                <li><a href="#">PALADINS</a></li>
+                                <li><a href="#">CS:GO</a></li>
+                                <li><a href="#">Tournament</a></li>
+                                <li><a href="#">VALORANT</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_gallery">
+                            <div class="footer_text">
+                                <h2>GALLERY</h2>
+                            </div>
+                            <div class="footer_gallery_img">
+                                <a href="#">
+                                    <picture><img src="image/footer_img.png" class="image-fluid w-100" alt="footer-img">
+                                    </picture>
+                                </a>
+                                <a href="#">
+                                    <picture><img src="image/footer_img 2.png" class="image-fluid w-100"
+                                            alt="footer-img"></picture>
+                                </a>
+                                <a href="#">
+                                    <picture><img src="image/footer_img 3.png" class="image-fluid w-100"
+                                            alt="footer-img"></picture>
+                                </a>
+                                <a href="#">
+                                    <picture><img src="image/footer img 4.png" class="image-fluid w-100"
+                                            alt="footer-img"></picture>
+                                </a>
+                                <a href="#">
+                                    <picture><img src="image/footer img 5.png" class="image-fluid w-100"
+                                            alt="footer-img"></picture>
+                                </a>
+                                <a href="#">
+                                    <picture><img src="image/footer img 6.png" class="image-fluid w-100"
+                                            alt="footer-img"></picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p>© 2021 All rights reserved by <span>Themebea.</span></p>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------footer part end------------------------------- -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
